@@ -30,6 +30,8 @@ This model is really simple and is equal to regular "Message" model, but with on
 
 For authentication I use fastapi.security.api_key. In the beggining I specify constant API_KEY which contains string value that is the only string, can be used to authenticate. There are two ways to send api key: via query or header. None of the endpoints can be accessed without authentication. In case of trying to access the endpoint without api key or with invalid one, user will get 403 (forbidden) status code.
 
+Link to Heroku: https://daftcode-evox-application-proj.herokuapp.com/
+
 # Endpoints
 
 POST('/get_openapi')
