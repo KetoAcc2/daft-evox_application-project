@@ -76,8 +76,7 @@ This endpoint is used to delete the certain message (specified by id_message) fr
 
 
 
-
-
+Link to Heroku: https://daftcode-evox-application-proj.herokuapp.com/
 
 
 
