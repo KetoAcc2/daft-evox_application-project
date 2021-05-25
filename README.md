@@ -36,24 +36,28 @@ POST('/get_openapi')
 This one is not necessary endpoint but it can be useful to see the whole information about api. I won't talk about it something more.
 
 POST('/messages')
+url = 'http://127.0.0.1:8000/messages'
 
 ![image](https://user-images.githubusercontent.com/82528000/119568568-dbd39300-bdad-11eb-822d-fb5a767cb1ac.png)
 
 This endpoint is used for sending messages to database.
 
 PUT('/messages/{id_message}')
+url = 'http://127.0.0.1:8000/messages/{id_message}'
 
 ![image](https://user-images.githubusercontent.com/82528000/119568672-06bde700-bdae-11eb-8eae-2059c316caa7.png)
 
 This endpoint is used for updating the content of certain message (specified by id_message).
 
 GET('/messages/{id_message}')
+url = 'http://127.0.0.1:8000/messages/{id_message}'
 
 ![image](https://user-images.githubusercontent.com/82528000/119568839-3e2c9380-bdae-11eb-935b-7dbaebedf198.png)
 
 This endpoint is used to retrieve the certain message (specified by id_message) to see it's content and view_counter.
 
 DELETE('/messages/{id_message}')
+url = 'http://127.0.0.1:8000/messages/{id_message}'
 
 ![image](https://user-images.githubusercontent.com/82528000/119569123-9a8fb300-bdae-11eb-8434-34fefa52a129.png)
 
