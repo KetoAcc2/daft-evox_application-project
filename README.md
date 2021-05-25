@@ -36,7 +36,7 @@ Link to Heroku: https://daftcode-evox-application-proj.herokuapp.com/
 
 POST('/get_openapi')
 
-url = 'http://127.0.0.1:8000/get_openapi'
+url = 'https://daftcode-evox-application-proj.herokuapp.com/get_openapi'
 
 ![image](https://user-images.githubusercontent.com/82528000/119568204-89927200-bdad-11eb-89b9-e011d7f6a2cd.png)
 
@@ -44,7 +44,7 @@ This one is not necessary endpoint but it can be useful to see the whole informa
 
 POST('/messages')
 
-url = 'http://127.0.0.1:8000/messages'
+url = 'https://daftcode-evox-application-proj.herokuapp.com/messages'
 
 ![image](https://user-images.githubusercontent.com/82528000/119568568-dbd39300-bdad-11eb-822d-fb5a767cb1ac.png)
 
@@ -52,7 +52,7 @@ This endpoint is used for sending messages to database. Here I receive an object
 
 PUT('/messages/{id_message}')
 
-url = 'http://127.0.0.1:8000/messages/{id_message}'
+url = 'https://daftcode-evox-application-proj.herokuapp.com/messages/{id_message}'
 
 ![image](https://user-images.githubusercontent.com/82528000/119568672-06bde700-bdae-11eb-8eae-2059c316caa7.png)
 
@@ -60,7 +60,7 @@ This endpoint is used for updating the content of certain message (specified by 
 
 GET('/messages/{id_message}')
 
-url = 'http://127.0.0.1:8000/messages/{id_message}'
+url = 'https://daftcode-evox-application-proj.herokuapp.com/messages/{id_message}'
 
 ![image](https://user-images.githubusercontent.com/82528000/119568839-3e2c9380-bdae-11eb-935b-7dbaebedf198.png)
 
@@ -68,7 +68,7 @@ This endpoint is used to retrieve the certain message (specified by id_message) 
 
 DELETE('/messages/{id_message}')
 
-url = 'http://127.0.0.1:8000/messages/{id_message}'
+url = 'https://daftcode-evox-application-proj.herokuapp.com/messages/{id_message}'
 
 ![image](https://user-images.githubusercontent.com/82528000/119569123-9a8fb300-bdae-11eb-8434-34fefa52a129.png)
 
